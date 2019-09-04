@@ -1,7 +1,7 @@
 ---
 applications:
 - name: test-python-flask
-  random-route: true
+  random-route: false
   buildpacks:
     - python_buildpack
   memory: 256M
